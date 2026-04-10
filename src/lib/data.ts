@@ -32,24 +32,28 @@ export const studentsData: Record<string, Student> = {
     completionRate: 85,
     assignments: [
       {
-        id: "a1-1",
-        title: "Assignment 1.1",
-        filename: "Assignment 1.1 - REM-1.pdf",
-        path: "/assignments-om_badade/Assignment 1.1 - REM-1.pdf",
-        filetype: "pdf",
-        score: 92,
-        complexity: 75,
-        date: "2023-09-12"
-      },
-      {
-        id: "a1-2",
-        title: "Assignment 1.2",
-        filename: "Assignment 1.2- REM-1.pdf",
-        path: "/assignments-om_badade/Assignment 1.2- REM-1.pdf",
-        filetype: "pdf",
-        score: 88,
-        complexity: 80,
-        date: "2023-09-19"
+        id: "a-1",
+        title: "Assignment 1",
+        filename: "Assignment 1 Folder",
+        path: "#",
+        filetype: "folder",
+        score: 90,
+        complexity: 78,
+        date: "2023-09-19",
+        subfiles: [
+          {
+            id: "a1-1",
+            filename: "Assignment 1.1 - REM-1.pdf",
+            path: "/assignments-om_badade/Assignment 1.1 - REM-1.pdf",
+            filetype: "pdf"
+          },
+          {
+            id: "a1-2",
+            filename: "Assignment 1.2- REM-1.pdf",
+            path: "/assignments-om_badade/Assignment 1.2- REM-1.pdf",
+            filetype: "pdf"
+          }
+        ]
       }
     ]
   },
