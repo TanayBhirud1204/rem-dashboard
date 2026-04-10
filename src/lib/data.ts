@@ -32,26 +32,58 @@ export const studentsData: Record<string, Student> = {
     completionRate: 85,
     assignments: [
       {
-        id: "a-1",
-        title: "Assignment 1",
-        filename: "Assignment 1 Folder",
+        id: "a1-1",
+        title: "Assignment 1.1",
+        filename: "Assignment 1.1 - REM-1.pdf",
+        path: "/assignments-om_badade/Assignment 1.1 - REM-1.pdf",
+        filetype: "pdf",
+        score: 92,
+        complexity: 75,
+        date: "2023-09-12"
+      },
+      {
+        id: "a1-2",
+        title: "Assignment 1.2",
+        filename: "Assignment 1.2- REM-1.pdf",
+        path: "/assignments-om_badade/Assignment 1.2- REM-1.pdf",
+        filetype: "pdf",
+        score: 88,
+        complexity: 80,
+        date: "2023-09-19"
+      },
+      {
+        id: "a-9-om",
+        title: "Assignment 9",
+        filename: "Assignment 9",
         path: "#",
         filetype: "folder",
-        score: 90,
-        complexity: 78,
-        date: "2023-09-19",
+        score: 99,
+        complexity: 92,
+        date: "2023-12-05",
         subfiles: [
           {
-            id: "a1-1",
-            filename: "Assignment 1.1 - REM-1.pdf",
-            path: "/assignments-om_badade/Assignment 1.1 - REM-1.pdf",
-            filetype: "pdf"
+            id: "a-9-1-om",
+            filename: "Quiz_Assn 9 (1).docx",
+            path: "/assignments-tanay_bhirud/ASSIGNMENT 9/Quiz_Assn 9 (1).docx",
+            filetype: "docx"
           },
           {
-            id: "a1-2",
-            filename: "Assignment 1.2- REM-1.pdf",
-            path: "/assignments-om_badade/Assignment 1.2- REM-1.pdf",
-            filetype: "pdf"
+            id: "a-9-2-om",
+            filename: "Summary_Assn 9 (2).docx",
+            path: "/assignments-tanay_bhirud/ASSIGNMENT 9/Summary_Assn 9 (2).docx",
+            filetype: "docx"
+          },
+          {
+            id: "a-9-3-om",
+            filename: "WhatsApp Image 2026-03-31 at 23.28.30 (1).jpeg",
+            path: "/assignments-tanay_bhirud/ASSIGNMENT 9/WhatsApp Image 2026-03-31 at 23.28.30 (1).jpeg",
+            filetype: "jpeg"
+          },
+          {
+            id: "a-9-4-om",
+            filename: "flashcards (1).csv",
+            path: "/assignments-tanay_bhirud/ASSIGNMENT 9/flashcards (1).csv",
+            filetype: "csv"
           }
         ]
       }
